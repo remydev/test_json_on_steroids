@@ -1,0 +1,16 @@
+name: test
+version: 0.0.1
+
+
+dependencies:
+    json_on_steroids:
+        git: https://github.com/anykeyh/json_on_steroids
+        branch: master
+
+
+targets:
+  library:
+    main: src/main.cr
+
+
+
